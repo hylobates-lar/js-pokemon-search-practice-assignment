@@ -31,10 +31,24 @@ input:focus {
   outline: none;
 }
 
-.pokemon-card {
-  float: left;
-  width: 250px;
-  margin: auto;
+.pokemon-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+#pokemon-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+#pokemon-container li {
+  margin: 0;
+  list-style: none;
 }
 
 .pokemon-frame {
